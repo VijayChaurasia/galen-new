@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17327" started-at="2018-07-05T07:09:48Z" finished-at="2018-07-05T07:10:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17327" started-at="2018-07-05T07:09:48Z" finished-at="2018-07-05T07:10:05Z">
+      <class name="com.qait.automation.layout_testing.NewTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.qait.automation.layout_testing.NewTest@e25b2fe]" name="before" is-config="true" duration-ms="14602" started-at="2018-07-05T07:09:48Z" finished-at="2018-07-05T07:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifypage()[pri:0, instance:com.qait.automation.layout_testing.NewTest@e25b2fe]" name="verifypage" duration-ms="90" started-at="2018-07-05T07:10:02Z" finished-at="2018-07-05T07:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypage -->
+        <test-method status="PASS" signature="homePageLayoutTest()[pri:1, instance:com.qait.automation.layout_testing.NewTest@e25b2fe]" name="homePageLayoutTest" duration-ms="2294" started-at="2018-07-05T07:10:03Z" finished-at="2018-07-05T07:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLayoutTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.qait.automation.layout_testing.NewTest@e25b2fe]" name="after" is-config="true" duration-ms="307" started-at="2018-07-05T07:10:05Z" finished-at="2018-07-05T07:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.qait.automation.layout_testing.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

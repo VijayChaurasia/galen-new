@@ -1,0 +1,193 @@
+{
+  "testId" : "1-qa-search-page",
+  "name" : "qa search page",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check qa search page",
+      "status" : "info",
+      "time" : 1530774604836,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Main Section",
+        "objects" : [ {
+          "name" : "search_box",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "height 34px",
+            "highlight" : [ "search_box" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 511px",
+            "highlight" : [ "search_box" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "above center",
+            "highlight" : [ "search_box", "center" ]
+          } ]
+        }, {
+          "name" : "navigation_bar",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "height 59px",
+            "highlight" : [ "navigation_bar" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "width 1100px",
+            "highlight" : [ "navigation_bar" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 29
+            },
+            "name" : "above center",
+            "highlight" : [ "navigation_bar", "center" ]
+          } ]
+        }, {
+          "name" : "center",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "height 1287px",
+            "highlight" : [ "center" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "width 632px",
+            "highlight" : [ "center" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 34
+            },
+            "name" : "below navigation_bar",
+            "highlight" : [ "center", "navigation_bar" ]
+          } ]
+        }, {
+          "name" : "right",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 44
+            },
+            "name" : "width 280px",
+            "highlight" : [ "right" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "below search_box",
+            "highlight" : [ "right", "search_box" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 46
+            },
+            "name" : "right-of center",
+            "highlight" : [ "right", "center" ]
+          } ]
+        }, {
+          "name" : "images",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 54
+            },
+            "name" : "height 160px",
+            "highlight" : [ "images" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 55
+            },
+            "name" : "inside right",
+            "highlight" : [ "images", "right" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 63
+            },
+            "name" : "height 83px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 64
+            },
+            "name" : "width 1100px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/qa.gspec",
+              "lineNumber" : 65
+            },
+            "name" : "below center",
+            "highlight" : [ "footer", "center" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "images" : {
+          "area" : [ 822, 175, 278, 160 ]
+        },
+        "footer" : {
+          "area" : [ 0, 1492, 1100, 83 ]
+        },
+        "center" : {
+          "area" : [ 150, 175, 632, 1287 ]
+        },
+        "right" : {
+          "area" : [ 820, 175, 280, 1093 ]
+        },
+        "search_box" : {
+          "area" : [ 166, 25, 511, 34 ]
+        },
+        "navigation_bar" : {
+          "area" : [ 0, 64, 1100, 59 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

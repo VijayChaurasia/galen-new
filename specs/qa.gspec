@@ -1,0 +1,67 @@
+@objects
+   search_box			id			    lst-ib
+   header				class			sfbgx
+   navigation_bar		id				top_nav
+   center               id              center_col
+   first_result         class			g
+   right                id				rhs_block
+   right_first          class 			kp-header
+   images               id              media_result_group
+   related_search		class			med
+   footer				id				fbar
+
+
+= Main Section =
+ search_box:
+    height 34px 
+    width 511px
+    above center
+   
+    
+ '#header':
+    height 85px
+    width 1100px
+    above center
+    
+ navigation_bar:
+	height 59px
+    width 1100px
+    above center
+	
+ center:
+	height 1287px
+	width 632px
+	below navigation_bar
+	
+ '#first_result':
+	 height 93px
+	 width 600px
+	 below navigation_bar
+	 left-of right
+	
+ right:
+#	height 1078px
+    width 280px
+    below search_box
+    right-of center
+    
+ '#right_first':
+	height 295px
+    width 278px
+    inside right
+    
+ images:
+ 	height 160px
+ 	inside right
+    
+ '#related_search':
+	height 142px
+	width 600px
+	below center
+    
+ footer:
+	height 83px
+	width 1100px
+	below center
+
+

@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "qa search page",
+    "startedAt" : 1530774604836,
+    "endedAt" : 1530774604836,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 17,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 17
+    },
+    "testId" : "1-qa-search-page",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}
